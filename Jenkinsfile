@@ -13,6 +13,7 @@ pipeline {
                     sh """
                     #!/bin/bash
                     docker version
+                    
                     """
                 }
             }
